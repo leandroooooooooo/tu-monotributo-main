@@ -1,0 +1,27 @@
+// scss/_base.scss
+html {
+  scroll-behavior: smooth;
+}
+
+.animated-image:hover {
+  transform: scale(1.05);
+  transition: transform $transition-duration ease-in-out;
+}
+
+.section-heading {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff6b6b, #f8e1a1);
+  transition: transform $transition-duration ease-in-out, background $transition-duration ease-in-out;
+}
+
+.section-heading:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #f8e1a1, #ff6b6b);
+}
+
+.zoomIn:hover {
+  transform: scale(1.1);
+  transition: transform $transition-duration ease-in-out;
+}

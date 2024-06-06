@@ -1,0 +1,25 @@
+// scss/_animations.scss
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fadeInUp {
+  animation: fadeInUp 2s;
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+.slideInLeft {
+  animation: slideInLeft 1.5s;
+}
+
+.slideInRight {
+  animation: slideInRight 1.5s;
+}
+
+.zoomIn {
+  animation: zoomIn 1.5s;
+}

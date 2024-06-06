@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto, sans-serif";
+  color: #3498db;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-dark .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #54d98c;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-color: #3498db;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.btn-primary {
+  background-color: #2ecc71;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #54d98c;
+}
+
+.bg-primary {
+  background-color: #3498db !important;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */

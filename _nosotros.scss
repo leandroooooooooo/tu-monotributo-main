@@ -1,0 +1,50 @@
+.nosotros-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+
+    .section-heading {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: $primary-color;
+    }
+
+    .section-content {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        color: $text-dark;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+        img {
+            border-radius: 50%;
+            max-width: 150px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: $primary-color;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1rem;
+            color: $text-dark;
+        }
+    }
+
+    .content-box {
+        padding: 20px;
+        border-radius: $border-radius;
+        background-color: #db8484;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+
+    .animated-image {
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

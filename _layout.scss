@@ -1,0 +1,35 @@
+// scss/_layout.scss
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid $primary-color;
+  border-radius: $border-radius;
+  animation: spin 2s linear infinite;
+  z-index: 9999;
+}
+
+.jumbotron {
+  background-image: url('../images/man-2562325_640.jpg'), url('../images/hands-820272_640.jpg');
+  background-size: cover, cover;
+  background-position: left, right;
+  color: $text-white;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-primary {
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+}

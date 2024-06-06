@@ -1,0 +1,235 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fadeInUp {
+  animation: fadeInUp 2s;
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+.slideInLeft {
+  animation: slideInLeft 1.5s;
+}
+
+.slideInRight {
+  animation: slideInRight 1.5s;
+}
+
+.zoomIn {
+  animation: zoomIn 1.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animated-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-heading {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff6b6b, #f8e1a1);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.section-heading:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #f8e1a1, #ff6b6b);
+}
+
+.zoomIn:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  z-index: 9999;
+}
+
+.jumbotron {
+  background-image: url("../images/man-2562325_640.jpg"), url("../images/hands-820272_640.jpg");
+  background-size: cover, cover;
+  background-position: left, right;
+  color: #fff;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-primary {
+  background: linear-gradient(to right, #3498db, #2ecc71);
+}
+
+.btn-custom {
+  background: #3498db;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background: #2ecc71;
+}
+
+.content-box {
+  padding: 20px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: background 0.3s ease-in-out;
+}
+
+.content-box:hover {
+  background: rgb(255, 255, 255);
+}
+
+.section {
+  padding: 60px 0;
+}
+.section .section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+.footer .footer-image {
+  margin: 1rem 0;
+}
+.footer .footer-image img {
+  max-width: 100px;
+  transition: transform 0.5s;
+}
+.footer .footer-image img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+.footer .social-icons {
+  margin: 1rem 0;
+}
+.footer .social-icons .social-icon {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s, transform 0.3s;
+}
+.footer .social-icons .social-icon:hover {
+  color: #2ecc71;
+  transform: translateY(-5px);
+}
+.footer .footer-links {
+  margin-top: 1rem;
+}
+.footer .footer-links a {
+  color: #fff;
+  transition: color 0.3s;
+}
+.footer .footer-links a:hover {
+  color: #2ecc71;
+}
+.footer .footer-specific {
+  margin-top: 2rem;
+}
+.footer .footer-specific.ubicacion {
+  background: url("../images/location-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.footer .footer-specific.ejemplos {
+  background: url("../images/examples-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.footer .footer-specific.servicios {
+  background: url("../images/services-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+.footer .footer-specific.contacto {
+  background: url("../images/contact-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.section {
+  padding: 60px 0;
+}
+.section .section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.nosotros-section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.nosotros-section .section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #3498db;
+}
+.nosotros-section .section-content {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+.nosotros-section .team-member {
+  margin-bottom: 30px;
+}
+.nosotros-section .team-member img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+.nosotros-section .team-member h3 {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+.nosotros-section .team-member p {
+  font-size: 1rem;
+  color: #333;
+}
+.nosotros-section .content-box {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #db8484;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.nosotros-section .animated-image {
+  transition: transform 0.3s ease-in-out;
+}
+.nosotros-section .animated-image:hover {
+  transform: scale(1.05);
+}
+/*# sourceMappingURL=main.css.map */

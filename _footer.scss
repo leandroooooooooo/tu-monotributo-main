@@ -1,0 +1,70 @@
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+
+    .footer-image {
+        margin: 1rem 0;
+        img {
+            max-width: 100px;
+            transition: transform 0.5s;
+        }
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+    }
+
+    .social-icons {
+        margin: 1rem 0;
+
+        .social-icon {
+            margin: 0 10px;
+            font-size: 1.5rem;
+            color: #fff;
+            transition: color 0.3s, transform 0.3s;
+
+            &:hover {
+                color: $secondary-color;
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+    .footer-links {
+        margin-top: 1rem;
+
+        a {
+            color: #fff;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .footer-specific {
+        margin-top: 2rem;
+
+        &.ubicacion {
+            background: url('../images/location-bg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        &.ejemplos {
+            background: url('../images/examples-bg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        &.servicios {
+            background: url('../images/services-bg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        &.contacto {
+            background: url('../images/contact-bg.jpg') no-repeat center center;
+            background-size: cover;
+        }
+    }
+}
